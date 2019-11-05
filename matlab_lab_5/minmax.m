@@ -1,0 +1,1 @@
+function [xmin, xmax, fmin, fmax, fcalc] = minmax(x, f)  fcalc = polyval(f, x);  [fmax, ind1] =  max(fcalc);  xmax = x(ind1);  [fmin,ind2] = min(fcalc);  xmin = x(ind2);end
