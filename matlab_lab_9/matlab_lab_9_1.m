@@ -1,0 +1,1 @@
+mystruct=mlcRead('michael.mlc');
